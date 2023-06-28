@@ -1,0 +1,6 @@
+package com.smsservice.service;
+
+
+public interface SmsService {
+	
+}

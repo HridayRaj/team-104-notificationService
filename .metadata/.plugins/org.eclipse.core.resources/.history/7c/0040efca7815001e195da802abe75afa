@@ -1,0 +1,5 @@
+package com.smsservice.configuration;
+
+public class SnsConfiguration {
+
+}

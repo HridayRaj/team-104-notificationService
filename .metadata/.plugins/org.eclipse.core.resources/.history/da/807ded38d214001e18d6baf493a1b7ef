@@ -1,0 +1,5 @@
+package com.smsservice.payload;
+
+public class MessageBody {
+
+}

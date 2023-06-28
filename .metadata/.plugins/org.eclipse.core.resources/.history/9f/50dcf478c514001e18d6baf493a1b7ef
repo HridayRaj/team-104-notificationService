@@ -1,0 +1,12 @@
+package com.smsservice.entity;
+
+
+
+public class Client {
+	
+	private Integer clientId;
+	
+	private String clientName;
+	private String clientEmail;
+	private String clientPhone;
+}
