@@ -4282,3 +4282,347 @@ Caused by: java.io.IOException: The pipe is being closed
 	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
 	... 12 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-06-29 09:46:35.655
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy11/jdk.proxy11.$Proxy34.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:423)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-06-29 09:46:35.660
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy11/jdk.proxy11.$Proxy34.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:423)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.547
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.550
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.554
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.561
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.576
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.579
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.610
+!MESSAGE buffering callback sts4.classpath.PPZfpCpE clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.615
+!MESSAGE buffering callback sts4.classpath.DlxfItWi clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.619
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.622
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.626
+!MESSAGE buffering callback sts4.classpath.GyWZHQAK clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.629
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.634
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.638
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.649
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.666
+!MESSAGE buffering callback sts4.classpath.PPZfpCpE clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.670
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.674
+!MESSAGE buffering callback sts4.classpath.DlxfItWi clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.678
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.682
+!MESSAGE buffering callback sts4.classpath.GyWZHQAK clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.685
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.689
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.694
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.701
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.716
+!MESSAGE buffering callback sts4.classpath.PPZfpCpE clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.719
+!MESSAGE executing callback sts4.classpath.PPZfpCpE 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.723
+!MESSAGE executing callback sts4.classpath.PPZfpCpE FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-06-29 09:46:44.726
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PPZfpCpE'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PPZfpCpE'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.730
+!MESSAGE buffering callback sts4.classpath.DlxfItWi clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.733
+!MESSAGE buffering callback sts4.classpath.GyWZHQAK clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.737
+!MESSAGE executing callback sts4.classpath.DlxfItWi 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.741
+!MESSAGE executing callback sts4.classpath.GyWZHQAK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:44.745
+!MESSAGE executing callback sts4.classpath.DlxfItWi FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-06-29 09:46:44.748
+!MESSAGE No language server has registered to handle command 'sts4.classpath.DlxfItWi'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.DlxfItWi'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-29 09:46:44.920
+!MESSAGE Could not download sources for com.amazonaws:aws-java-sdk:1.12.497
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.12.497
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:sources:1.12.497
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-29 09:46:44.921
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.12.497
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-29 09:46:44.921
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:sources:1.12.497
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-06-29 09:46:46.247
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:46:46.813
+!MESSAGE executing callback sts4.classpath.GyWZHQAK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-06-29 09:46:46.817
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.270
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.275
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.302
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.308
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.313
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.340
+!MESSAGE buffering callback sts4.classpath.PPZfpCpE clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.344
+!MESSAGE buffering callback sts4.classpath.GyWZHQAK clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.346
+!MESSAGE buffering callback sts4.classpath.DlxfItWi clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.348
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.351
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.354
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.386
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.392
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.395
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.421
+!MESSAGE buffering callback sts4.classpath.PPZfpCpE clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.425
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.429
+!MESSAGE buffering callback sts4.classpath.GyWZHQAK clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.434
+!MESSAGE buffering callback sts4.classpath.DlxfItWi clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.438
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.440
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.462
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.469
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.472
+!MESSAGE classpath=456 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.494
+!MESSAGE buffering callback sts4.classpath.PPZfpCpE clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.497
+!MESSAGE buffering callback sts4.classpath.GyWZHQAK clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.499
+!MESSAGE buffering callback sts4.classpath.DlxfItWi clientservice false 456
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.501
+!MESSAGE executing callback sts4.classpath.PPZfpCpE 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.504
+!MESSAGE executing callback sts4.classpath.DlxfItWi 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.507
+!MESSAGE executing callback sts4.classpath.GyWZHQAK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.509
+!MESSAGE executing callback sts4.classpath.DlxfItWi FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-06-29 09:56:47.514
+!MESSAGE No language server has registered to handle command 'sts4.classpath.DlxfItWi'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.DlxfItWi'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.518
+!MESSAGE executing callback sts4.classpath.PPZfpCpE FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-06-29 09:56:47.520
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PPZfpCpE'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PPZfpCpE'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-29 09:56:47.877
+!MESSAGE executing callback sts4.classpath.GyWZHQAK SUCCESS [done]
